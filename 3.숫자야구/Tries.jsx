@@ -9,4 +9,5 @@ const Tries = memo(({ tryInfo }) => {
         </li>
     );
 });
+Tries.displayName='Try';
 module.exports = Tries;

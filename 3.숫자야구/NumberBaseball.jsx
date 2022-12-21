@@ -2,7 +2,7 @@ const { useState, memo } = require('react');
 const React = require('react');
 const Tries = require('./Tries');
 
-function NumberBaseball() {
+const NumberBaseball=()=> {
     function getNumbers() {
         const candidate = [1, 2, 3, 4, 5, 6, 7, 8, 9];
         const array = [];
